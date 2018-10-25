@@ -1,6 +1,6 @@
 
-let validation = (function(){
-    function requiredValidation(scope) {
+let validate = (function(scope){
+    function requiredValidation() {
         var currentScope = document.querySelector('[data-scope=' + scope + ']');
         var missingfields = [];
         return new Promise(function (resolve, reject) {
