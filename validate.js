@@ -1,4 +1,3 @@
-
 let validate = (function(scope){
     function requiredValidation() {
         var currentScope = document.querySelector('[data-scope=' + scope + ']');
