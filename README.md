@@ -4,11 +4,17 @@
 
 ## Usage
 
-```js
-/**
- * This function adds one to its input.
- * @param {number} input any number
- * @returns {number} that number, plus one.
- */
+```html
+   <div data-scope='laytime'>
+        <input data-required='No date has been selected'>
+    </div>
+```
 
+```js
+    requiredValidation('laytime')
+      .then(function(response){
+      //todo when valid
+       } ,function(err){
+      todo when invalid
+    });
 ```
