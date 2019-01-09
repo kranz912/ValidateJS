@@ -1,4 +1,6 @@
 let validate = (function(scope){
+    requiredValidation();
+
     function requiredValidation() {
         var currentScope = document.querySelector('[data-scope=' + scope + ']');
         var missingfields = [];
@@ -24,3 +26,4 @@ let validate = (function(scope){
         });
       }
 })();
+validate('laytime');

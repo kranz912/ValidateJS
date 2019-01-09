@@ -11,10 +11,5 @@
 ```
 
 ```js
-requiredValidation('laytime')
-  .then(function(response){
-    //todo when valid
-  } ,function(err){
-    //todo when invalid
-});
+validate('laytime');
 ```
