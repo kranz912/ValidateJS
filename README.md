@@ -1,6 +1,6 @@
 # Getting Started
 
-`Automating frontend validations
+`Making Frontend Validation easy
 
 ## Usage
 
